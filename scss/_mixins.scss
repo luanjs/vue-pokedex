@@ -1,0 +1,14 @@
+@mixin set-size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin center-vertically() {
+    display: flex;
+    align-items: center;
+}
+
+@mixin center-horizontally() {
+    display: flex;
+    justify-content: center;
+}
